@@ -11,26 +11,7 @@
   },
   {
     "id": "complexity",
-    "text": "What complexity level do you prefer?",
-    "type": "select",
-    "options": ["light", "medium", "heavy"]
-  },
-  {
-    "id": "preferredTags",
-    "text": "What kind of game are you in the mood for?",
-    "type": "multiselect",
-    "options": [
-      "strategy",
-      "party",
-      "cooperative",
-      "family",
-      "card game",
-      "bluffing",
-      "trading",
-      "word game",
-      "team",
-      "wargame",
-      "historical"
-    ]
+    "text": "What complexity do you prefer, on a scale from 1 (light) to 5 (heavy)?",
+    "type": "number"
   }
 ]

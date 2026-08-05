@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/rafaellorenzoqa/board-game-matchmaker#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
   }
 }
