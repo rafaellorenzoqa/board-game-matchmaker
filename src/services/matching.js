@@ -1,7 +1,7 @@
 const PLAYER_COUNT_MATCH_SCORE = 3;
 const TIME_MATCH_SCORE = 2;
 const COMPLEXITY_MATCH_SCORE = 2;
-const TAG_MATCH_SCORE = 1;
+const COMPLEXITY_TOLERANCE = 1;
 
 function getAnswer(answers, questionId) {
   const found = answers.find((a) => a.questionId === questionId);
@@ -29,17 +29,10 @@ function scoreGame(game, answers) {
   }
 
   const complexity = getAnswer(answers, 'complexity');
-  if (complexity && game.complexity === complexity) {
-    score += COMPLEXITY_MATCH_SCORE;
-    reasons.push(`Matches your preferred complexity (${complexity})`);
-  }
-
-  const preferredTags = getAnswer(answers, 'preferredTags');
-  if (Array.isArray(preferredTags) && Array.isArray(game.tags)) {
-    const matchedTags = game.tags.filter((tag) => preferredTags.includes(tag));
-    if (matchedTags.length > 0) {
-      score += matchedTags.length * TAG_MATCH_SCORE;
-      reasons.push(`Matches tags: ${matchedTags.join(', ')}`);
+  if (typeof complexity === 'number' && typeof game.complexity === 'number') {
+    if (Math.abs(game.complexity - complexity) <= COMPLEXITY_TOLERANCE) {
+      score += COMPLEXITY_MATCH_SCORE;
+      reasons.push(`Matches your preferred complexity (${game.complexity} vs requested ${complexity})`);
     }
   }
 

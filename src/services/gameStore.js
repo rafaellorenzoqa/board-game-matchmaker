@@ -18,4 +18,39 @@ function addGame(game) {
   return newGame;
 }
 
-module.exports = { listGames, addGame };
+function replaceGame(id, game) {
+  const games = listGames();
+  const index = games.findIndex((g) => g.id === id);
+  if (index === -1) return null;
+
+  const updatedGame = { id, ...game };
+  games[index] = updatedGame;
+  writeJsonFile(GAMES_FILE, games);
+
+  return updatedGame;
+}
+
+function patchGame(id, updates) {
+  const games = listGames();
+  const index = games.findIndex((g) => g.id === id);
+  if (index === -1) return null;
+
+  const updatedGame = { ...games[index], ...updates };
+  games[index] = updatedGame;
+  writeJsonFile(GAMES_FILE, games);
+
+  return updatedGame;
+}
+
+function deleteGame(id) {
+  const games = listGames();
+  const index = games.findIndex((g) => g.id === id);
+  if (index === -1) return false;
+
+  games.splice(index, 1);
+  writeJsonFile(GAMES_FILE, games);
+
+  return true;
+}
+
+module.exports = { listGames, addGame, replaceGame, patchGame, deleteGame };

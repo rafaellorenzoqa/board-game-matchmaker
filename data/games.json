@@ -1,1710 +1,1954 @@
 [
   {
-    "name": "1000?",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 20,
-    "weight": 1.2
+    "id": 1,
+    "name": "Catan2",
+    "minPlayers": 3,
+    "maxPlayers": 4,
+    "playTime": 90,
+    "complexity": 2.5
   },
   {
+    "id": 2,
     "name": "3 Capítulos",
-    "minPlayer": 2,
-    "maxPlayer": 6,
-    "avgPlayTime": 360,
-    "weight": 2.91
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playTime": 360,
+    "complexity": 2.91
   },
   {
+    "id": 3,
     "name": "5-Minute Dungeon",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 195,
-    "weight": 1.0
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 195,
+    "complexity": 1
   },
   {
+    "id": 4,
     "name": "7 Wonders",
-    "minPlayer": 2,
-    "maxPlayer": 7,
-    "avgPlayTime": 175,
-    "weight": 5.0
+    "minPlayers": 2,
+    "maxPlayers": 7,
+    "playTime": 175,
+    "complexity": 5
   },
   {
+    "id": 5,
     "name": "7 Wonders: Duel",
-    "minPlayer": 1,
-    "maxPlayer": 2,
-    "avgPlayTime": 160,
-    "weight": 2.33
+    "minPlayers": 1,
+    "maxPlayers": 2,
+    "playTime": 160,
+    "complexity": 2.33
   },
   {
+    "id": 6,
     "name": "A Guerra dos Tronos: Board Game",
-    "minPlayer": 3,
-    "maxPlayer": 6,
-    "avgPlayTime": 105,
-    "weight": 3.67
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playTime": 105,
+    "complexity": 3.67
   },
   {
+    "id": 7,
     "name": "Acquire",
-    "minPlayer": 2,
-    "maxPlayer": 6,
-    "avgPlayTime": 85,
-    "weight": null
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playTime": 85,
+    "complexity": null
   },
   {
+    "id": 8,
     "name": "Acuse! Novelas da Globo",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 75,
-    "weight": null
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 75,
+    "complexity": null
   },
   {
+    "id": 9,
     "name": "Agrícola - 15th Anniversary Edition",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 290,
-    "weight": null
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 290,
+    "complexity": null
   },
   {
+    "id": 10,
     "name": "Allumbra - O duelo",
-    "minPlayer": 2,
-    "maxPlayer": 2,
-    "avgPlayTime": 40,
-    "weight": 4.45
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playTime": 40,
+    "complexity": 4.45
   },
   {
+    "id": 11,
     "name": "Arcadia Quest",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 35,
-    "weight": 2.62
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 35,
+    "complexity": 2.62
   },
   {
+    "id": 12,
     "name": "Aristofarsa (2ed)",
-    "minPlayer": 2,
-    "maxPlayer": 6,
-    "avgPlayTime": 75,
-    "weight": 4.77
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playTime": 75,
+    "complexity": 4.77
   },
   {
+    "id": 13,
     "name": "Ark Nova",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 155,
-    "weight": 3.28
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 155,
+    "complexity": 3.28
   },
   {
+    "id": 14,
     "name": "As Ruínas Perdidas de Arnak",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 165,
-    "weight": 3.32
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 165,
+    "complexity": 3.32
   },
   {
+    "id": 15,
     "name": "Ascension - Edição de 10º Aniversário",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 340,
-    "weight": 1.16
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 340,
+    "complexity": 1.16
   },
   {
+    "id": 16,
     "name": "Avant Carde",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 35,
-    "weight": 1.33
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 35,
+    "complexity": 1.33
   },
   {
+    "id": 17,
     "name": "Azul",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 145,
-    "weight": 3.63
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 145,
+    "complexity": 3.63
   },
   {
+    "id": 18,
     "name": "Backstabbers",
-    "minPlayer": 3,
-    "maxPlayer": 8,
-    "avgPlayTime": 285,
-    "weight": 3.26
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playTime": 285,
+    "complexity": 3.26
   },
   {
+    "id": 19,
     "name": "Banco Imobiliário",
-    "minPlayer": 2,
-    "maxPlayer": 8,
-    "avgPlayTime": 160,
-    "weight": 2.27
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playTime": 160,
+    "complexity": 2.27
   },
   {
+    "id": 20,
     "name": "Bang! O jogo de Cartas",
-    "minPlayer": 4,
-    "maxPlayer": 7,
-    "avgPlayTime": 305,
-    "weight": 2.04
+    "minPlayers": 4,
+    "maxPlayers": 7,
+    "playTime": 305,
+    "complexity": 2.04
   },
   {
+    "id": 21,
     "name": "Barcelona",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 195,
-    "weight": 3.68
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 195,
+    "complexity": 3.68
   },
   {
+    "id": 22,
     "name": "Bardwood Grove",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 20,
-    "weight": 2.26
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 20,
+    "complexity": 2.26
   },
   {
+    "id": 23,
     "name": "Betrayal at House on the Hill, 3rd Edition",
-    "minPlayer": 3,
-    "maxPlayer": 6,
-    "avgPlayTime": 120,
-    "weight": 2.06
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playTime": 120,
+    "complexity": 2.06
   },
   {
+    "id": 24,
     "name": "Black Forest",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 290,
-    "weight": 1.52
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 290,
+    "complexity": 1.52
   },
   {
+    "id": 25,
     "name": "Bohnanza!",
-    "minPlayer": 3,
-    "maxPlayer": 5,
-    "avgPlayTime": 235,
-    "weight": 3.58
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playTime": 235,
+    "complexity": 3.58
   },
   {
+    "id": 26,
     "name": "Brass: Birmingham",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 195,
-    "weight": 2.83
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 195,
+    "complexity": 2.83
   },
   {
+    "id": 27,
     "name": "Brazil: Imperial",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 115,
-    "weight": 4.72
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 115,
+    "complexity": 4.72
   },
   {
+    "id": 28,
     "name": "Breachers: Fendas de Sempreterna",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 155,
-    "weight": 4.74
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 155,
+    "complexity": 4.74
   },
   {
+    "id": 29,
     "name": "Campos de Arle",
-    "minPlayer": 1,
-    "maxPlayer": 2,
-    "avgPlayTime": 235,
-    "weight": 1.04
+    "minPlayers": 1,
+    "maxPlayers": 2,
+    "playTime": 235,
+    "complexity": 1.04
   },
   {
+    "id": 30,
     "name": "Cartógrafos",
-    "minPlayer": 1,
-    "maxPlayer": 100,
-    "avgPlayTime": 85,
-    "weight": 3.48
+    "minPlayers": 1,
+    "maxPlayers": 100,
+    "playTime": 85,
+    "complexity": 3.48
   },
   {
+    "id": 31,
     "name": "Cartógrafos: Heróis",
-    "minPlayer": 1,
-    "maxPlayer": 100,
-    "avgPlayTime": 75,
-    "weight": 3.25
+    "minPlayers": 1,
+    "maxPlayers": 100,
+    "playTime": 75,
+    "complexity": 3.25
   },
   {
+    "id": 32,
     "name": "Cat in the Box (Deluxe Edition)",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 260,
-    "weight": 1.4
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 260,
+    "complexity": 1.4
   },
   {
+    "id": 33,
     "name": "Catan: Plus",
-    "minPlayer": 3,
-    "maxPlayer": 6,
-    "avgPlayTime": 80,
-    "weight": 3.15
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playTime": 80,
+    "complexity": 3.15
   },
   {
+    "id": 34,
     "name": "Caverna",
-    "minPlayer": 1,
-    "maxPlayer": 7,
-    "avgPlayTime": 245,
-    "weight": 3.02
+    "minPlayers": 1,
+    "maxPlayers": 7,
+    "playTime": 245,
+    "complexity": 3.02
   },
   {
+    "id": 35,
     "name": "Censura",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 240,
-    "weight": 1.53
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 240,
+    "complexity": 1.53
   },
   {
+    "id": 36,
     "name": "Cheez-Tricks",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 185,
-    "weight": 2.4
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 185,
+    "complexity": 2.4
   },
   {
+    "id": 37,
     "name": "Circadianos: Primeira Luz",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 45,
-    "weight": 1.28
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 45,
+    "complexity": 1.28
   },
   {
+    "id": 38,
     "name": "Cities",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 310,
-    "weight": 1.98
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 310,
+    "complexity": 1.98
   },
   {
+    "id": 39,
     "name": "Claim: Edição Limitada",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 360,
-    "weight": 2.14
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 360,
+    "complexity": 2.14
   },
   {
+    "id": 40,
     "name": "Clank!",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 95,
-    "weight": 2.75
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 95,
+    "complexity": 2.75
   },
   {
+    "id": 41,
     "name": "Clash of Cultures: Edição Monumental",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 260,
-    "weight": 3.17
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 260,
+    "complexity": 3.17
   },
   {
+    "id": 42,
     "name": "Coffee Rush",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 70,
-    "weight": 2.21
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 70,
+    "complexity": 2.21
   },
   {
+    "id": 43,
     "name": "Comic Hunters",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 205,
-    "weight": 4.94
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 205,
+    "complexity": 4.94
   },
   {
+    "id": 44,
     "name": "Convidados Indesejados",
-    "minPlayer": 2,
-    "maxPlayer": 8,
-    "avgPlayTime": 250,
-    "weight": 4.23
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playTime": 250,
+    "complexity": 4.23
   },
   {
+    "id": 45,
     "name": "Coup",
-    "minPlayer": 2,
-    "maxPlayer": 10,
-    "avgPlayTime": 140,
-    "weight": 3.12
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "playTime": 140,
+    "complexity": 3.12
   },
   {
+    "id": 46,
     "name": "Critter Kitchen",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 60,
-    "weight": 3.67
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 60,
+    "complexity": 3.67
   },
   {
+    "id": 47,
     "name": "Cyclades - Legendary Edition",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 45,
-    "weight": 3.22
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 45,
+    "complexity": 3.22
   },
   {
+    "id": 48,
     "name": "Darwin's Journey",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 165,
-    "weight": 4.73
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 165,
+    "complexity": 4.73
   },
   {
+    "id": 49,
     "name": "Dead by Daylight: Collector's Edition",
-    "minPlayer": 3,
-    "maxPlayer": 5,
-    "avgPlayTime": 205,
-    "weight": 1.41
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playTime": 205,
+    "complexity": 1.41
   },
   {
+    "id": 50,
     "name": "Dead of Winter: Noite Sem Fim",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 70,
-    "weight": 4.51
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 70,
+    "complexity": 4.51
   },
   {
+    "id": 51,
     "name": "Deckscape: Ameaça em Londres",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 165,
-    "weight": 2.06
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 165,
+    "complexity": 2.06
   },
   {
+    "id": 52,
     "name": "Deckscape: Hora do Teste",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 80,
-    "weight": 4.56
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 80,
+    "complexity": 4.56
   },
   {
+    "id": 53,
     "name": "Deckscape: Roubo em Veneza",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 260,
-    "weight": 3.97
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 260,
+    "complexity": 3.97
   },
   {
+    "id": 54,
     "name": "Decrypto 5 anos",
-    "minPlayer": 3,
-    "maxPlayer": 8,
-    "avgPlayTime": 195,
-    "weight": 1.62
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "playTime": 195,
+    "complexity": 1.62
   },
   {
+    "id": 55,
     "name": "Delta",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 310,
-    "weight": 2.13
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 310,
+    "complexity": 2.13
   },
   {
+    "id": 56,
     "name": "Descent: Lendas da Escuridão - Ato I",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 250,
-    "weight": 1.84
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 250,
+    "complexity": 1.84
   },
   {
+    "id": 57,
     "name": "DesConfronto",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 120,
-    "weight": 2.37
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 120,
+    "complexity": 2.37
   },
   {
+    "id": 58,
     "name": "Dice Throne ReLoaded: Barbarian vs Moon Elf",
-    "minPlayer": 2,
-    "maxPlayer": 2,
-    "avgPlayTime": 255,
-    "weight": 3.75
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playTime": 255,
+    "complexity": 3.75
   },
   {
+    "id": 59,
     "name": "Dice Throne ReLoaded: Monk vs Paladin",
-    "minPlayer": 2,
-    "maxPlayer": 2,
-    "avgPlayTime": 245,
-    "weight": 4.41
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playTime": 245,
+    "complexity": 4.41
   },
   {
+    "id": 60,
     "name": "Distilled",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 150,
-    "weight": 3.02
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 150,
+    "complexity": 3.02
   },
   {
+    "id": 61,
     "name": "Dobble: Disney 100 Years of Wonder",
-    "minPlayer": 2,
-    "maxPlayer": 8,
-    "avgPlayTime": 190,
-    "weight": 2.0
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playTime": 190,
+    "complexity": 2
   },
   {
+    "id": 62,
     "name": "Doce Caos: Guerra de Confeiteiros",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 65,
-    "weight": 4.63
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 65,
+    "complexity": 4.63
   },
   {
+    "id": 63,
     "name": "Doggerland",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 125,
-    "weight": 1.2
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 125,
+    "complexity": 1.2
   },
   {
+    "id": 64,
     "name": "Dominations: A Ascensão das Civilizações",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 360,
-    "weight": 3.54
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 360,
+    "complexity": 3.54
   },
   {
+    "id": 65,
     "name": "Dorf Romantik",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 175,
-    "weight": 4.32
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 175,
+    "complexity": 4.32
   },
   {
+    "id": 66,
     "name": "Dragon Cantina",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 120,
-    "weight": 1.18
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 120,
+    "complexity": 1.18
   },
   {
+    "id": 67,
     "name": "Dungeon Drop",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 315,
-    "weight": 2.33
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 315,
+    "complexity": 2.33
   },
   {
+    "id": 68,
     "name": "Dungeon Rummy - Limited Edition",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 260,
-    "weight": 1.52
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 260,
+    "complexity": 1.52
   },
   {
+    "id": 69,
     "name": "É Top? Geek & Pop",
-    "minPlayer": 2,
-    "maxPlayer": 10,
-    "avgPlayTime": 190,
-    "weight": 4.92
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "playTime": 190,
+    "complexity": 4.92
   },
   {
+    "id": 70,
     "name": "Earth",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 160,
-    "weight": 1.65
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 160,
+    "complexity": 1.65
   },
   {
+    "id": 71,
     "name": "Elder Sign",
-    "minPlayer": 1,
-    "maxPlayer": 8,
-    "avgPlayTime": 225,
-    "weight": 2.77
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "playTime": 225,
+    "complexity": 2.77
   },
   {
+    "id": 72,
     "name": "Elementar: Morte em 4 de Julho",
-    "minPlayer": 1,
-    "maxPlayer": 8,
-    "avgPlayTime": 55,
-    "weight": 3.82
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "playTime": 55,
+    "complexity": 3.82
   },
   {
+    "id": 73,
     "name": "Endeavor: Mar Profundo",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 165,
-    "weight": 3.24
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 165,
+    "complexity": 3.24
   },
   {
+    "id": 74,
     "name": "Endless Winter: Paleoamerican",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 40,
-    "weight": 1.45
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 40,
+    "complexity": 1.45
   },
   {
+    "id": 75,
     "name": "Era: Idade Medieval",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 220,
-    "weight": 4.78
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 220,
+    "complexity": 4.78
   },
   {
+    "id": 76,
     "name": "Eternal Decks",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 275,
-    "weight": 3.76
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 275,
+    "complexity": 3.76
   },
   {
+    "id": 77,
     "name": "Everdell",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 190,
-    "weight": 1.6
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 190,
+    "complexity": 1.6
   },
   {
+    "id": 78,
     "name": "Everdell: Farshore Deluxe",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 60,
-    "weight": 1.14
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 60,
+    "complexity": 1.14
   },
   {
+    "id": 79,
     "name": "Evergreen",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 155,
-    "weight": 2.48
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 155,
+    "complexity": 2.48
   },
   {
+    "id": 80,
     "name": "Êxodo",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 220,
-    "weight": 3.21
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 220,
+    "complexity": 3.21
   },
   {
+    "id": 81,
     "name": "Exploding Kitten: NSFW",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 155,
-    "weight": 2.72
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 155,
+    "complexity": 2.72
   },
   {
+    "id": 82,
     "name": "Fantasy Realms",
-    "minPlayer": 2,
-    "maxPlayer": 6,
-    "avgPlayTime": 335,
-    "weight": 1.17
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playTime": 335,
+    "complexity": 1.17
   },
   {
+    "id": 83,
     "name": "Fate: Defensores de Grimheim",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 270,
-    "weight": 2.46
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 270,
+    "complexity": 2.46
   },
   {
+    "id": 84,
     "name": "Fibonachos",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 310,
-    "weight": 4.73
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 310,
+    "complexity": 4.73
   },
   {
+    "id": 85,
     "name": "Final Girl",
-    "minPlayer": 1,
-    "maxPlayer": 1,
-    "avgPlayTime": 110,
-    "weight": 4.89
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "playTime": 110,
+    "complexity": 4.89
   },
   {
+    "id": 86,
     "name": "Flamecraft: Deluxe Edition",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 185,
-    "weight": 1.16
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 185,
+    "complexity": 1.16
   },
   {
+    "id": 87,
     "name": "Flip 7",
-    "minPlayer": 2,
-    "maxPlayer": 8,
-    "avgPlayTime": 105,
-    "weight": 2.43
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playTime": 105,
+    "complexity": 2.43
   },
   {
+    "id": 88,
     "name": "Fliptoons",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 175,
-    "weight": 3.73
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 175,
+    "complexity": 3.73
   },
   {
+    "id": 89,
     "name": "Food Chain Magnate",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 360,
-    "weight": 3.67
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 360,
+    "complexity": 3.67
   },
   {
+    "id": 90,
     "name": "Fora de Ordem",
-    "minPlayer": 2,
-    "maxPlayer": 6,
-    "avgPlayTime": 185,
-    "weight": 2.41
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playTime": 185,
+    "complexity": 2.41
   },
   {
+    "id": 91,
     "name": "Forest Shuffle",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 290,
-    "weight": 3.24
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 290,
+    "complexity": 3.24
   },
   {
+    "id": 92,
     "name": "Fort",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 275,
-    "weight": 4.5
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 275,
+    "complexity": 4.5
   },
   {
+    "id": 93,
     "name": "Foto Perfeita",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 250,
-    "weight": 4.9
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 250,
+    "complexity": 4.9
   },
   {
+    "id": 94,
     "name": "Fotomania",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 160,
-    "weight": 4.0
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 160,
+    "complexity": 4
   },
   {
+    "id": 95,
     "name": "Frosthaven",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 105,
-    "weight": 4.7
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 105,
+    "complexity": 4.7
   },
   {
+    "id": 96,
     "name": "Galactic Cruise",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 345,
-    "weight": 1.95
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 345,
+    "complexity": 1.95
   },
   {
+    "id": 97,
     "name": "Geekmon Capture",
-    "minPlayer": 3,
-    "maxPlayer": 6,
-    "avgPlayTime": 335,
-    "weight": 1.65
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playTime": 335,
+    "complexity": 1.65
   },
   {
+    "id": 98,
     "name": "Glitches",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 75,
-    "weight": 4.2
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 75,
+    "complexity": 4.2
   },
   {
+    "id": 99,
     "name": "Gloomhaven",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 50,
-    "weight": 1.71
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 50,
+    "complexity": 1.71
   },
   {
+    "id": 100,
     "name": "Gloomhaven: Buttons & Bugs",
-    "minPlayer": 1,
-    "maxPlayer": 1,
-    "avgPlayTime": 90,
-    "weight": 2.65
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "playTime": 90,
+    "complexity": 2.65
   },
   {
+    "id": 101,
     "name": "Gloomhaven: Presas do Leão",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 115,
-    "weight": 1.72
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 115,
+    "complexity": 1.72
   },
   {
+    "id": 102,
     "name": "Great Western Trail: Nova Zelândia",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 120,
-    "weight": 4.7
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 120,
+    "complexity": 4.7
   },
   {
+    "id": 103,
     "name": "Hallertau",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 290,
-    "weight": 4.13
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 290,
+    "complexity": 4.13
   },
   {
+    "id": 104,
     "name": "Hamlet",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 60,
-    "weight": 2.65
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 60,
+    "complexity": 2.65
   },
   {
+    "id": 105,
     "name": "Harmonies",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 265,
-    "weight": 3.68
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 265,
+    "complexity": 3.68
   },
   {
+    "id": 106,
     "name": "Heat: Pedal to the Metal",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 260,
-    "weight": 3.94
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 260,
+    "complexity": 3.94
   },
   {
+    "id": 107,
     "name": "Hegemony: Conduza sua Classe à Vitória",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 315,
-    "weight": 1.99
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 315,
+    "complexity": 1.99
   },
   {
+    "id": 108,
     "name": "Hitster",
-    "minPlayer": 2,
-    "maxPlayer": 10,
-    "avgPlayTime": 355,
-    "weight": 1.64
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "playTime": 355,
+    "complexity": 1.64
   },
   {
+    "id": 109,
     "name": "Homem Batata",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 180,
-    "weight": 3.81
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 180,
+    "complexity": 3.81
   },
   {
+    "id": 110,
     "name": "Honey Buzz",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 25,
-    "weight": 2.53
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 25,
+    "complexity": 2.53
   },
   {
+    "id": 111,
     "name": "Ilha dos Predadores",
-    "minPlayer": 1,
-    "maxPlayer": 1,
-    "avgPlayTime": 90,
-    "weight": 1.15
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "playTime": 90,
+    "complexity": 1.15
   },
   {
+    "id": 112,
     "name": "Imperial Miners",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 360,
-    "weight": 2.88
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 360,
+    "complexity": 2.88
   },
   {
+    "id": 113,
     "name": "Isso é meu!",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 190,
-    "weight": 1.8
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 190,
+    "complexity": 1.8
   },
   {
+    "id": 114,
     "name": "Ito",
-    "minPlayer": 2,
-    "maxPlayer": 8,
-    "avgPlayTime": 235,
-    "weight": 4.67
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "playTime": 235,
+    "complexity": 4.67
   },
   {
+    "id": 115,
     "name": "It's a Wonderful World",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 90,
-    "weight": 2.4
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 90,
+    "complexity": 2.4
   },
   {
+    "id": 116,
     "name": "Keep the Heroes Out",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 205,
-    "weight": 4.28
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 205,
+    "complexity": 4.28
   },
   {
+    "id": 117,
     "name": "Kitchen Rush",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 295,
-    "weight": 4.49
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 295,
+    "complexity": 4.49
   },
   {
+    "id": 118,
     "name": "Kobbbrix",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 120,
-    "weight": 1.89
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 120,
+    "complexity": 1.89
   },
   {
+    "id": 119,
     "name": "La Granja: Master Deluxe Set",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 310,
-    "weight": 3.64
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 310,
+    "complexity": 3.64
   },
   {
+    "id": 120,
     "name": "Last Friday",
-    "minPlayer": 2,
-    "maxPlayer": 6,
-    "avgPlayTime": 20,
-    "weight": 2.59
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playTime": 20,
+    "complexity": 2.59
   },
   {
+    "id": 121,
     "name": "Level 10",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 185,
-    "weight": 2.11
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 185,
+    "complexity": 2.11
   },
   {
+    "id": 122,
     "name": "Lhama - Edição Festa",
-    "minPlayer": 2,
-    "maxPlayer": 10,
-    "avgPlayTime": 340,
-    "weight": 1.28
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "playTime": 340,
+    "complexity": 1.28
   },
   {
+    "id": 123,
     "name": "Living Forest",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 130,
-    "weight": 4.09
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 130,
+    "complexity": 4.09
   },
   {
+    "id": 124,
     "name": "LoTR - A Sociedade do Anel: O Jogo de Vazas",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 340,
-    "weight": 2.4
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 340,
+    "complexity": 2.4
   },
   {
+    "id": 125,
     "name": "LoTR - As Duas Torres: O Jogo de Vazas",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 85,
-    "weight": 3.04
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 85,
+    "complexity": 3.04
   },
   {
+    "id": 126,
     "name": "LoTR: Duelo pela Terra Média",
-    "minPlayer": 2,
-    "maxPlayer": 2,
-    "avgPlayTime": 210,
-    "weight": 3.72
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playTime": 210,
+    "complexity": 3.72
   },
   {
+    "id": 127,
     "name": "LoTR: LCG - Core Set (Revised)",
-    "minPlayer": 1,
-    "maxPlayer": 3,
-    "avgPlayTime": 340,
-    "weight": 4.37
+    "minPlayers": 1,
+    "maxPlayers": 3,
+    "playTime": 340,
+    "complexity": 4.37
   },
   {
+    "id": 128,
     "name": "Luna Maris",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 145,
-    "weight": 2.32
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 145,
+    "complexity": 2.32
   },
   {
+    "id": 129,
     "name": "Magic Maze",
-    "minPlayer": 1,
-    "maxPlayer": 8,
-    "avgPlayTime": 115,
-    "weight": 1.11
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "playTime": 115,
+    "complexity": 1.11
   },
   {
+    "id": 130,
     "name": "Magical Athlete",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 255,
-    "weight": 4.51
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 255,
+    "complexity": 4.51
   },
   {
+    "id": 131,
     "name": "Magna Roma Deluxe",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 120,
-    "weight": 2.04
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 120,
+    "complexity": 2.04
   },
   {
+    "id": 132,
     "name": "Mansions of Madness: 2a Edição",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 355,
-    "weight": 3.32
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 355,
+    "complexity": 3.32
   },
   {
+    "id": 133,
     "name": "Marajoara",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 20,
-    "weight": 4.93
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 20,
+    "complexity": 4.93
   },
   {
+    "id": 134,
     "name": "Marceneiros",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 225,
-    "weight": 1.15
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 225,
+    "complexity": 1.15
   },
   {
+    "id": 135,
     "name": "Marvel United",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 330,
-    "weight": 3.39
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 330,
+    "complexity": 3.39
   },
   {
+    "id": 136,
     "name": "Marvel United: X-Men",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 30,
-    "weight": 2.38
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 30,
+    "complexity": 2.38
   },
   {
+    "id": 137,
     "name": "Massive Darkness 2 Base: Hellscape",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 90,
-    "weight": 4.15
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 90,
+    "complexity": 4.15
   },
   {
+    "id": 138,
     "name": "Mindbug",
-    "minPlayer": 2,
-    "maxPlayer": 2,
-    "avgPlayTime": 250,
-    "weight": 2.75
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playTime": 250,
+    "complexity": 2.75
   },
   {
+    "id": 139,
     "name": "Mistborn: Deckbuilding Game",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 215,
-    "weight": 4.94
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 215,
+    "complexity": 4.94
   },
   {
+    "id": 140,
     "name": "Monkey Palace",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 170,
-    "weight": 1.46
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 170,
+    "complexity": 1.46
   },
   {
+    "id": 141,
     "name": "Mysterium",
-    "minPlayer": 2,
-    "maxPlayer": 7,
-    "avgPlayTime": 55,
-    "weight": 4.6
+    "minPlayers": 2,
+    "maxPlayers": 7,
+    "playTime": 55,
+    "complexity": 4.6
   },
   {
+    "id": 142,
     "name": "Nem a Pato!",
-    "minPlayer": 2,
-    "maxPlayer": 10,
-    "avgPlayTime": 170,
-    "weight": 1.76
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "playTime": 170,
+    "complexity": 1.76
   },
   {
+    "id": 143,
     "name": "Nemesis",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 70,
-    "weight": 1.18
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 70,
+    "complexity": 1.18
   },
   {
+    "id": 144,
     "name": "Nevoeiro em Carcassonne",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 70,
-    "weight": 2.74
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 70,
+    "complexity": 2.74
   },
   {
+    "id": 145,
     "name": "New York Zoo",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 330,
-    "weight": 3.08
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 330,
+    "complexity": 3.08
   },
   {
+    "id": 146,
     "name": "Next Station: London",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 60,
-    "weight": 4.23
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 60,
+    "complexity": 4.23
   },
   {
+    "id": 147,
     "name": "NezeN",
-    "minPlayer": 2,
-    "maxPlayer": 2,
-    "avgPlayTime": 360,
-    "weight": 3.75
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playTime": 360,
+    "complexity": 3.75
   },
   {
+    "id": 148,
     "name": "Northgard: Terras Desconhecidas",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 100,
-    "weight": 4.76
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 100,
+    "complexity": 4.76
   },
   {
+    "id": 149,
     "name": "Nucleum",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 100,
-    "weight": 3.95
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 100,
+    "complexity": 3.95
   },
   {
+    "id": 150,
     "name": "O Bom do Videogame",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 320,
-    "weight": 1.79
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 320,
+    "complexity": 1.79
   },
   {
+    "id": 151,
     "name": "O Cerco de Runedar",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 125,
-    "weight": 2.73
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 125,
+    "complexity": 2.73
   },
   {
+    "id": 152,
     "name": "O Inconsciente - Edição Deluxe",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 185,
-    "weight": 4.8
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 185,
+    "complexity": 4.8
   },
   {
+    "id": 153,
     "name": "Oak",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 355,
-    "weight": 4.68
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 355,
+    "complexity": 4.68
   },
   {
+    "id": 154,
     "name": "OnBoard! Cinema & TV",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 290,
-    "weight": 3.49
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 290,
+    "complexity": 3.49
   },
   {
+    "id": 155,
     "name": "OnBoard! Variedades",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 155,
-    "weight": 3.65
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 155,
+    "complexity": 3.65
   },
   {
+    "id": 156,
     "name": "Onitama",
-    "minPlayer": 2,
-    "maxPlayer": 2,
-    "avgPlayTime": 145,
-    "weight": 1.5
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playTime": 145,
+    "complexity": 1.5
   },
   {
+    "id": 157,
     "name": "Orloj: O Relógio Astronômico de Praga",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 215,
-    "weight": 4.6
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 215,
+    "complexity": 4.6
   },
   {
+    "id": 158,
     "name": "Os Pilares da Terra",
-    "minPlayer": 3,
-    "maxPlayer": 4,
-    "avgPlayTime": 275,
-    "weight": 3.03
+    "minPlayers": 3,
+    "maxPlayers": 4,
+    "playTime": 275,
+    "complexity": 3.03
   },
   {
+    "id": 159,
     "name": "Ozob: A Cyberpunk Boardgame",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 255,
-    "weight": 3.67
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 255,
+    "complexity": 3.67
   },
   {
+    "id": 160,
     "name": "Pandemic",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 300,
-    "weight": 2.3
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 300,
+    "complexity": 2.3
   },
   {
+    "id": 161,
     "name": "Paper Dungeons",
-    "minPlayer": 1,
-    "maxPlayer": 8,
-    "avgPlayTime": 350,
-    "weight": 3.79
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "playTime": 350,
+    "complexity": 3.79
   },
   {
+    "id": 162,
     "name": "Pergola",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 305,
-    "weight": 3.22
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 305,
+    "complexity": 3.22
   },
   {
+    "id": 163,
     "name": "Pescado Novo",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 95,
-    "weight": 1.77
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 95,
+    "complexity": 1.77
   },
   {
+    "id": 164,
     "name": "Pest: Deluxe Edition",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 175,
-    "weight": 3.66
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 175,
+    "complexity": 3.66
   },
   {
+    "id": 165,
     "name": "Pipoca",
-    "minPlayer": 1,
-    "maxPlayer": 2,
-    "avgPlayTime": 160,
-    "weight": 2.52
+    "minPlayers": 1,
+    "maxPlayers": 2,
+    "playTime": 160,
+    "complexity": 2.52
   },
   {
+    "id": 166,
     "name": "Piratas!",
-    "minPlayer": 2,
-    "maxPlayer": 6,
-    "avgPlayTime": 60,
-    "weight": 3.99
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playTime": 60,
+    "complexity": 3.99
   },
   {
+    "id": 167,
     "name": "Planeta Desconhecido",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 235,
-    "weight": 1.7
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 235,
+    "complexity": 1.7
   },
   {
+    "id": 168,
     "name": "Planta Nubo",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 30,
-    "weight": 3.28
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 30,
+    "complexity": 3.28
   },
   {
+    "id": 169,
     "name": "Project L",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 165,
-    "weight": 2.62
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 165,
+    "complexity": 2.62
   },
   {
+    "id": 170,
     "name": "Puerto Rico",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 160,
-    "weight": 4.33
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 160,
+    "complexity": 4.33
   },
   {
+    "id": 171,
     "name": "Qu4to",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 20,
-    "weight": 2.22
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 20,
+    "complexity": 2.22
   },
   {
+    "id": 172,
     "name": "Quarriors!",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 65,
-    "weight": 1.84
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 65,
+    "complexity": 1.84
   },
   {
+    "id": 173,
     "name": "Quartz: O jogo de Cartas",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 55,
-    "weight": 4.14
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 55,
+    "complexity": 4.14
   },
   {
+    "id": 174,
     "name": "Quinas - Café",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 165,
-    "weight": 3.43
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 165,
+    "complexity": 3.43
   },
   {
+    "id": 175,
     "name": "Quinas - Lata",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 60,
-    "weight": 2.29
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 60,
+    "complexity": 2.29
   },
   {
+    "id": 176,
     "name": "Quinas - Oliva",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 40,
-    "weight": 2.77
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 40,
+    "complexity": 2.77
   },
   {
+    "id": 177,
     "name": "Radlands",
-    "minPlayer": 3,
-    "maxPlayer": 2,
-    "avgPlayTime": 230,
-    "weight": 3.7
+    "minPlayers": 3,
+    "maxPlayers": 2,
+    "playTime": 230,
+    "complexity": 3.7
   },
   {
+    "id": 178,
     "name": "Ratos de Wistar",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 65,
-    "weight": 3.04
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 65,
+    "complexity": 3.04
   },
   {
+    "id": 179,
     "name": "Rebel Princess",
-    "minPlayer": 3,
-    "maxPlayer": 6,
-    "avgPlayTime": 345,
-    "weight": 4.17
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playTime": 345,
+    "complexity": 4.17
   },
   {
+    "id": 180,
     "name": "Reload",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 170,
-    "weight": 4.84
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 170,
+    "complexity": 4.84
   },
   {
+    "id": 181,
     "name": "Res Arcana",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 195,
-    "weight": 3.94
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 195,
+    "complexity": 3.94
   },
   {
+    "id": 182,
     "name": "Revive",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 330,
-    "weight": 3.64
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 330,
+    "complexity": 3.64
   },
   {
+    "id": 183,
     "name": "Rewild: América do Sul",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 155,
-    "weight": 2.14
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 155,
+    "complexity": 2.14
   },
   {
+    "id": 184,
     "name": "Robinson Crusoé: Aventuras na Ilha Amaldiçoada",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 100,
-    "weight": 3.66
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 100,
+    "complexity": 3.66
   },
   {
+    "id": 185,
     "name": "Robo Rescue: Origins - Blue Box",
-    "minPlayer": 1,
-    "maxPlayer": 1,
-    "avgPlayTime": 320,
-    "weight": 3.48
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "playTime": 320,
+    "complexity": 3.48
   },
   {
+    "id": 186,
     "name": "Robo Rescue: Origins - Red Box",
-    "minPlayer": 1,
-    "maxPlayer": 1,
-    "avgPlayTime": 175,
-    "weight": 1.37
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "playTime": 175,
+    "complexity": 1.37
   },
   {
+    "id": 187,
     "name": "Roll Player",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 320,
-    "weight": 4.81
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 320,
+    "complexity": 4.81
   },
   {
+    "id": 188,
     "name": "Rolling Ranch",
-    "minPlayer": 1,
-    "maxPlayer": 10,
-    "avgPlayTime": 280,
-    "weight": 1.94
+    "minPlayers": 1,
+    "maxPlayers": 10,
+    "playTime": 280,
+    "complexity": 1.94
   },
   {
+    "id": 189,
     "name": "Rolling Realms",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 140,
-    "weight": 2.24
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 140,
+    "complexity": 2.24
   },
   {
+    "id": 190,
     "name": "Santa Kaos",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 80,
-    "weight": 4.23
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 80,
+    "complexity": 4.23
   },
   {
+    "id": 191,
     "name": "Schotten Totten",
-    "minPlayer": 2,
-    "maxPlayer": 2,
-    "avgPlayTime": 80,
-    "weight": 1.59
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playTime": 80,
+    "complexity": 1.59
   },
   {
+    "id": 192,
     "name": "Scotland Yard",
-    "minPlayer": 2,
-    "maxPlayer": 6,
-    "avgPlayTime": 295,
-    "weight": 1.18
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playTime": 295,
+    "complexity": 1.18
   },
   {
+    "id": 193,
     "name": "Scout",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 245,
-    "weight": 4.94
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 245,
+    "complexity": 4.94
   },
   {
+    "id": 194,
     "name": "Sea Dragon",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 290,
-    "weight": 3.45
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 290,
+    "complexity": 3.45
   },
   {
+    "id": 195,
     "name": "SETI",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 280,
-    "weight": 4.07
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 280,
+    "complexity": 4.07
   },
   {
+    "id": 196,
     "name": "Shackleton Base",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 315,
-    "weight": 2.82
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 315,
+    "complexity": 2.82
   },
   {
+    "id": 197,
     "name": "Sky Team",
-    "minPlayer": 2,
-    "maxPlayer": 2,
-    "avgPlayTime": 50,
-    "weight": 4.54
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playTime": 50,
+    "complexity": 4.54
   },
   {
+    "id": 198,
     "name": "Skymines",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 80,
-    "weight": 3.3
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 80,
+    "complexity": 3.3
   },
   {
+    "id": 199,
     "name": "Slay the Spire: O Jogo de Tabuleiro",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 55,
-    "weight": 3.87
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 55,
+    "complexity": 3.87
   },
   {
+    "id": 200,
     "name": "Small World of Warcraft",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 275,
-    "weight": 2.54
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 275,
+    "complexity": 2.54
   },
   {
+    "id": 201,
     "name": "Smash Up",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 235,
-    "weight": 2.6
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 235,
+    "complexity": 2.6
   },
   {
+    "id": 202,
     "name": "Spirit Island",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 85,
-    "weight": 1.59
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 85,
+    "complexity": 1.59
   },
   {
+    "id": 203,
     "name": "Stardew Valley: The Board Game",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 175,
-    "weight": 3.75
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 175,
+    "complexity": 3.75
   },
   {
+    "id": 204,
     "name": "Super Boss Monster",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 140,
-    "weight": 4.57
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 140,
+    "complexity": 4.57
   },
   {
+    "id": 205,
     "name": "Survive the Island",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 140,
-    "weight": 4.44
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 140,
+    "complexity": 4.44
   },
   {
+    "id": 206,
     "name": "Tavern Tussle",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 360,
-    "weight": 4.54
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 360,
+    "complexity": 4.54
   },
   {
+    "id": 207,
     "name": "Terra Nova",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 305,
-    "weight": 4.11
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 305,
+    "complexity": 4.11
   },
   {
+    "id": 208,
     "name": "Terraforming Mars",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 105,
-    "weight": 1.88
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 105,
+    "complexity": 1.88
   },
   {
+    "id": 209,
     "name": "Terrorscape",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 290,
-    "weight": 4.22
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 290,
+    "complexity": 4.22
   },
   {
+    "id": 210,
     "name": "That Time You Killed Me",
-    "minPlayer": 2,
-    "maxPlayer": 2,
-    "avgPlayTime": 135,
-    "weight": 3.78
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "playTime": 135,
+    "complexity": 3.78
   },
   {
+    "id": 211,
     "name": "The Elder Scrolls: Betrayal of the Second Era",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 195,
-    "weight": 2.86
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 195,
+    "complexity": 2.86
   },
   {
+    "id": 212,
     "name": "The Gang",
-    "minPlayer": 3,
-    "maxPlayer": 6,
-    "avgPlayTime": 315,
-    "weight": 3.23
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playTime": 315,
+    "complexity": 3.23
   },
   {
+    "id": 213,
     "name": "The White Castle",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 175,
-    "weight": 4.67
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 175,
+    "complexity": 4.67
   },
   {
+    "id": 214,
     "name": "This War of Mine: The Board Game",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 65,
-    "weight": 1.49
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 65,
+    "complexity": 1.49
   },
   {
+    "id": 215,
     "name": "Tiny Epic Crimes",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 300,
-    "weight": 1.53
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 300,
+    "complexity": 1.53
   },
   {
+    "id": 216,
     "name": "Tiny Epic Dinosaurs",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 80,
-    "weight": 2.86
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 80,
+    "complexity": 2.86
   },
   {
+    "id": 217,
     "name": "Tiny Epic Dungeons",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 50,
-    "weight": 3.12
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 50,
+    "complexity": 3.12
   },
   {
+    "id": 218,
     "name": "Tiny Epic Dungeons: Adventures",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 25,
-    "weight": 3.24
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 25,
+    "complexity": 3.24
   },
   {
+    "id": 219,
     "name": "Tiny Epic Galaxies",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 75,
-    "weight": 2.27
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 75,
+    "complexity": 2.27
   },
   {
+    "id": 220,
     "name": "Tiny Epic Pirates",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 170,
-    "weight": 4.02
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 170,
+    "complexity": 4.02
   },
   {
+    "id": 221,
     "name": "Tiny Epic Tactics - Deluxe Kickstarter Edition",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 125,
-    "weight": 2.77
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 125,
+    "complexity": 2.77
   },
   {
+    "id": 222,
     "name": "Tiny Epic Vikings",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 280,
-    "weight": 4.26
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 280,
+    "complexity": 4.26
   },
   {
+    "id": 223,
     "name": "Tiny Epic Zombies",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 330,
-    "weight": 4.57
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 330,
+    "complexity": 4.57
   },
   {
+    "id": 224,
     "name": "Tiranos de Umbreterna (2nd Edition)",
-    "minPlayer": 2,
-    "maxPlayer": 4,
-    "avgPlayTime": 325,
-    "weight": 2.71
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "playTime": 325,
+    "complexity": 2.71
   },
   {
+    "id": 225,
     "name": "Tribes of the Wind",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 155,
-    "weight": 4.63
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 155,
+    "complexity": 4.63
   },
   {
+    "id": 226,
     "name": "Trick of the Rails",
-    "minPlayer": 3,
-    "maxPlayer": 5,
-    "avgPlayTime": 275,
-    "weight": 2.78
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playTime": 275,
+    "complexity": 2.78
   },
   {
+    "id": 227,
     "name": "Trickerion: Anniversary Edition",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 55,
-    "weight": 1.64
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 55,
+    "complexity": 1.64
   },
   {
+    "id": 228,
     "name": "Tricky Time Crisis",
-    "minPlayer": 2,
-    "maxPlayer": 5,
-    "avgPlayTime": 125,
-    "weight": 4.45
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "playTime": 125,
+    "complexity": 4.45
   },
   {
+    "id": 229,
     "name": "Trio",
-    "minPlayer": 3,
-    "maxPlayer": 6,
-    "avgPlayTime": 260,
-    "weight": 2.8
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "playTime": 260,
+    "complexity": 2.8
   },
   {
+    "id": 230,
     "name": "Trolls & Princesas",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 20,
-    "weight": 4.01
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 20,
+    "complexity": 4.01
   },
   {
+    "id": 231,
     "name": "Turing Machine",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 265,
-    "weight": 4.36
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 265,
+    "complexity": 4.36
   },
   {
+    "id": 232,
     "name": "Vale dos Moinhos",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 185,
-    "weight": 2.11
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 185,
+    "complexity": 2.11
   },
   {
+    "id": 233,
     "name": "Vale of Eternity",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 310,
-    "weight": 4.11
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 310,
+    "complexity": 4.11
   },
   {
+    "id": 234,
     "name": "Vazerneiros",
-    "minPlayer": 3,
-    "maxPlayer": 5,
-    "avgPlayTime": 200,
-    "weight": 2.94
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playTime": 200,
+    "complexity": 2.94
   },
   {
+    "id": 235,
     "name": "Viajantes do Sul do Tigre",
-    "minPlayer": 1,
-    "maxPlayer": 4,
-    "avgPlayTime": 290,
-    "weight": 1.96
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 290,
+    "complexity": 1.96
   },
   {
+    "id": 236,
     "name": "Village: Big Box",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 330,
-    "weight": 2.76
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 330,
+    "complexity": 2.76
   },
   {
+    "id": 237,
     "name": "War: 25 anos",
-    "minPlayer": 2,
-    "maxPlayer": 6,
-    "avgPlayTime": 115,
-    "weight": 3.85
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "playTime": 115,
+    "complexity": 3.85
   },
   {
+    "id": 238,
     "name": "Wingspan",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 140,
-    "weight": 1.94
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 140,
+    "complexity": 1.94
   },
   {
+    "id": 239,
     "name": "Wingspan: Nesting Box",
-    "minPlayer": 1,
-    "maxPlayer": 7,
-    "avgPlayTime": 205,
-    "weight": 2.34
+    "minPlayers": 1,
+    "maxPlayers": 7,
+    "playTime": 205,
+    "complexity": 2.34
   },
   {
+    "id": 240,
     "name": "World Wonders",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 155,
-    "weight": 4.57
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 155,
+    "complexity": 4.57
   },
   {
+    "id": 241,
     "name": "Wyrmspan",
-    "minPlayer": 1,
-    "maxPlayer": 5,
-    "avgPlayTime": 55,
-    "weight": 1.32
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "playTime": 55,
+    "complexity": 1.32
   },
   {
+    "id": 242,
     "name": "Zelda Showdown (Texas Showdown)",
-    "minPlayer": 3,
-    "maxPlayer": 5,
-    "avgPlayTime": 55,
-    "weight": 1.6
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "playTime": 55,
+    "complexity": 1.6
   },
   {
+    "id": 243,
     "name": "Zombicide: 2nd Edition",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 220,
-    "weight": 2.53
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 220,
+    "complexity": 2.53
   },
   {
+    "id": 244,
     "name": "Zombicide: Gear Up",
-    "minPlayer": 1,
-    "maxPlayer": 6,
-    "avgPlayTime": 55,
-    "weight": 1.61
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "playTime": 55,
+    "complexity": 1.61
   }
 ]
