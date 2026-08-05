@@ -1,0 +1,36 @@
+[
+  {
+    "id": "playerCount",
+    "text": "How many players will be playing?",
+    "type": "number"
+  },
+  {
+    "id": "timeAvailable",
+    "text": "How much time do you have, in minutes?",
+    "type": "number"
+  },
+  {
+    "id": "complexity",
+    "text": "What complexity level do you prefer?",
+    "type": "select",
+    "options": ["light", "medium", "heavy"]
+  },
+  {
+    "id": "preferredTags",
+    "text": "What kind of game are you in the mood for?",
+    "type": "multiselect",
+    "options": [
+      "strategy",
+      "party",
+      "cooperative",
+      "family",
+      "card game",
+      "bluffing",
+      "trading",
+      "word game",
+      "team",
+      "wargame",
+      "historical"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "board-game-matchmaker",
+  "version": "1.0.0",
+  "description": "This is my portfolio project.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaellorenzoqa/board-game-matchmaker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rafaellorenzoqa/board-game-matchmaker/issues"
+  },
+  "homepage": "https://github.com/rafaellorenzoqa/board-game-matchmaker#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
