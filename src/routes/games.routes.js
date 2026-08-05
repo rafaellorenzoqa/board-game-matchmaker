@@ -278,7 +278,7 @@ router.put('/:id', (req, res) => {
   const updatedGame = gameStore.replaceGame(id, { name, minPlayers, maxPlayers, playTime, complexity });
 
   if (!updatedGame) {
-    return res.status(404).json({ error: `Game with id ${id} not found.` });
+    return res.status(404).json({ error: `Game with id ${req.params.id} not found.` });
   }
 
   res.json(updatedGame);
@@ -379,7 +379,7 @@ router.patch('/:id', (req, res) => {
 
   const updatedGame = gameStore.patchGame(id, updates);
   if (!updatedGame) {
-    return res.status(404).json({ error: `Game with id ${id} not found.` });
+    return res.status(404).json({ error: `Game with id ${req.params.id} not found.` });
   }
 
   res.json(updatedGame);
@@ -418,7 +418,7 @@ router.delete('/:id', (req, res) => {
 
   const deleted = gameStore.deleteGame(id);
   if (!deleted) {
-    return res.status(404).json({ error: `Game with id ${id} not found.` });
+    return res.status(404).json({ error: `Game with id ${req.params.id} not found.` });
   }
 
   res.status(204).send();
