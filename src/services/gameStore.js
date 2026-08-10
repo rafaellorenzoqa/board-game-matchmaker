@@ -1,7 +1,9 @@
 const path = require('path');
 const { readJsonFile, writeJsonFile } = require('../utils/jsonFile');
 
-const GAMES_FILE = path.join(__dirname, '..', '..', 'data', 'games.json');
+const GAMES_FILE = process.env.GAMES_FILE_PATH
+  ? path.resolve(process.env.GAMES_FILE_PATH)
+  : path.join(__dirname, '..', '..', 'data', 'games.json');
 
 function listGames(filePath = GAMES_FILE) {
   return readJsonFile(filePath);
