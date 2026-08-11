@@ -30,5 +30,13 @@
     "maxPlayers": 6,
     "playTime": 205,
     "complexity": 4.28
+  },
+  {
+    "id": 117,
+    "name": "New Game",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "playTime": 90,
+    "complexity": 3.1
   }
 ]
