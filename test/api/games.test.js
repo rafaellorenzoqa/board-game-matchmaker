@@ -5,10 +5,28 @@ const { expect } = require('chai');
 const app = require('../../src/app');
 const { writeJsonFile } = require('../../src/utils/jsonFile');
 const initialGames = require('../fixtures/initialGames');
-const { deepEqual } = require('assert');
+
+async function getAuthToken() {
+    const response = await request(app)
+        .post('/auth/login')
+        .send({
+            username: process.env.AUTH_USERNAME,
+            password: process.env.AUTH_PASSWORD
+        });
+    if (!response.body.token){
+        throw new Error(`Login failed in test setup:  ${JSON.stringify(response.body)}`)
+    }
+    return response.body.token;
+}
 
 
 describe('/games', () => {
+
+    let token;
+
+    before(async () => {
+        token = await getAuthToken();
+    })
 
     beforeEach(() => {
         writeJsonFile(process.env.GAMES_FILE_PATH, initialGames); // path, data.
@@ -25,15 +43,12 @@ describe('/games', () => {
         })
     })
 
-    //POST /games in test/api/ — at least: 
-    // valid payload → 201 + correct shape, 
-    // missing field → 400, 
-    // complexity: null → 400 (the rule you specifically decided on).
     describe('POST /games', () => {
 
         it('Must return 201 on valid game creation', async () => {
             const response = await request(app)
                 .post('/games')
+                .set('Authorization', `Bearer ${token}`)
                 .send({
                     name: 'Speakeasy',
                     minPlayers: 1,
@@ -41,6 +56,7 @@ describe('/games', () => {
                     playTime: 90,
                     complexity: 3.1
                 });
+
             expect(response.status).to.eq(201);
             expect(response.body.name).to.eq('Speakeasy');
             expect(response.body.minPlayers).to.eq(1);
@@ -55,6 +71,7 @@ describe('/games', () => {
         it('Must return 400 when the playload is missing a field (name is missing)', async () => {
             const response = await request(app)
                 .post('/games')
+                .set('Authorization', `Bearer ${token}`)
                 .send({
                     minPlayers: 1,
                     maxPlayers: 4,
@@ -67,6 +84,7 @@ describe('/games', () => {
         it('Must return 400 on null parameter (complexity: null)', async () => {
             const response = await request(app)
                 .post('/games')
+                .set('Authorization', `Bearer ${token}`)
                 .send({
                     name: 'Pest',
                     minPlayers: 1,
@@ -85,6 +103,7 @@ describe('/games', () => {
         it('Must return 200 when a game is replaced', async () => {
             const response = await request(app)
                 .put('/games/1')
+                .set('Authorization', `Bearer ${token}`)
                 .send({
                     "name": "Catan: Navegantes",
                     "minPlayers": 3,
@@ -95,6 +114,7 @@ describe('/games', () => {
 
             const response2 = await request(app)
                 .put('/games/1')
+                .set('Authorization', `Bearer ${token}`)
                 .send({
                     "name": "Catan: Navegantes",
                     "minPlayers": 3,
@@ -111,8 +131,16 @@ describe('/games', () => {
 
         })
     
-        it('Must return 400 when the payload is incomplete (missing property)', () => {
-            
+        it('Must return 400 when the payload is incomplete (missing property)', async () => {
+            const response = await request(app)
+                .post('/games/1')
+                .set('Authorization', `Bearer ${token}`)
+                .send({
+                    "name": "Catan: Navegantes",
+                    "minPlayers": 3,
+                    "playTime": 90,
+                    "complexity": 2.5
+                })
         })
     })
 
