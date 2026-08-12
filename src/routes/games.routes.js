@@ -95,6 +95,8 @@ router.get('/', (req, res) => {
  *     summary: Add a game to the collection
  *     tags:
  *       - Games
+ *     security:
+ *       - bearerAuth: []
  *     requestBody:
  *       required: true
  *       content:
@@ -163,6 +165,16 @@ router.get('/', (req, res) => {
  *                   example: >-
  *                     Missing or invalid fields. Required: name (string), minPlayers (number),
  *                     maxPlayers (number), playTime (number), complexity (number).
+ *       401:
+ *         description: Missing, malformed, or invalid bearer token
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 error:
+ *                   type: string
+ *                   example: Authorization header is required.
  */
 router.post('/', requireAuth, (req, res) => {
   const validationError = validateFullGamePayload(req.body);
@@ -182,6 +194,8 @@ router.post('/', requireAuth, (req, res) => {
  *     summary: Replace a game (full update, idempotent)
  *     tags:
  *       - Games
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *       - in: path
  *         name: id
@@ -256,6 +270,16 @@ router.post('/', requireAuth, (req, res) => {
  *                   example: >-
  *                     Missing or invalid fields. Required: name (string), minPlayers (number),
  *                     maxPlayers (number), playTime (number), complexity (number).
+ *       401:
+ *         description: Missing, malformed, or invalid bearer token
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 error:
+ *                   type: string
+ *                   example: Authorization header is required.
  *       404:
  *         description: No game with that id
  *         content:
@@ -292,6 +316,8 @@ router.put('/:id', requireAuth, (req, res) => {
  *     summary: Partially update a game
  *     tags:
  *       - Games
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *       - in: path
  *         name: id
@@ -359,6 +385,16 @@ router.put('/:id', requireAuth, (req, res) => {
  *                 error:
  *                   type: string
  *                   example: "Invalid field: complexity must be a number."
+ *       401:
+ *         description: Missing, malformed, or invalid bearer token
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 error:
+ *                   type: string
+ *                   example: Authorization header is required.
  *       404:
  *         description: No game with that id
  *         content:
@@ -393,6 +429,8 @@ router.patch('/:id', requireAuth, (req, res) => {
  *     summary: Remove a game from the collection
  *     tags:
  *       - Games
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *       - in: path
  *         name: id
@@ -403,6 +441,16 @@ router.patch('/:id', requireAuth, (req, res) => {
  *     responses:
  *       204:
  *         description: Game deleted
+ *       401:
+ *         description: Missing, malformed, or invalid bearer token
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 error:
+ *                   type: string
+ *                   example: Authorization header is required.
  *       404:
  *         description: No game with that id
  *         content:

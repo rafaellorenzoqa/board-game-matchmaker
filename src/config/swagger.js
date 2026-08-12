@@ -8,6 +8,15 @@ const swaggerSpec = swaggerJsdoc({
       title: 'Board Game Matchmaker API',
       version: packageJson.version,
     },
+    components: {
+      securitySchemes: {
+        bearerAuth: {
+          type: 'http',
+          scheme: 'bearer',
+          bearerFormat: 'JWT',
+        },
+      },
+    },
   },
   apis: ['./src/routes/*.js'],
 });
