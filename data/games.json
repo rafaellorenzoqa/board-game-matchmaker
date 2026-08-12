@@ -25,11 +25,11 @@
   },
   {
     "id": 4,
-    "name": "7 Wonders",
-    "minPlayers": 2,
-    "maxPlayers": 7,
-    "playTime": 175,
-    "complexity": 5
+    "name": "Catan",
+    "minPlayers": 3,
+    "maxPlayers": 4,
+    "playTime": 90,
+    "complexity": 2.5
   },
   {
     "id": 5,

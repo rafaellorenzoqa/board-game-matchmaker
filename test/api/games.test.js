@@ -110,6 +110,10 @@ describe('/games', () => {
             expect(response.body).to.deep.equal(response2.body);
 
         })
+    
+        it('Must return 400 when the payload is incomplete (missing property)', () => {
+            
+        })
     })
 
 })
