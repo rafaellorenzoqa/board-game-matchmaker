@@ -16,7 +16,7 @@ function validateFullGamePayload(body) {
   const { name, minPlayers, maxPlayers, playTime, complexity } = body;
 
   if (
-    !name ||
+    typeof name !== 'string' || !name.trim() ||
     typeof minPlayers !== 'number' ||
     typeof maxPlayers !== 'number' ||
     typeof playTime !== 'number' ||
@@ -34,7 +34,9 @@ function validatePartialGamePayload(body) {
   for (const field of Object.keys(GAME_FIELD_TYPES)) {
     if (body[field] === undefined) continue;
 
-    const isValid = field === 'name' ? Boolean(body[field]) : typeof body[field] === 'number';
+    const isValid = field === 'name'
+      ? typeof body[field] === 'string' && body[field].trim().length > 0
+      : typeof body[field] === 'number';
     if (!isValid) {
       return { error: `Invalid field: ${field} must be a ${GAME_FIELD_TYPES[field]}.` };
     }
