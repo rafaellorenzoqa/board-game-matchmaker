@@ -144,4 +144,17 @@ describe('/games', () => {
         })
     })
 
+    describe('PATCH /games/{id}', () => {
+        it('Must return 200 when a game is edited', async () => {
+            const response = await request(app)
+                .patch('games/1')
+                .set('Authorization', `Bearer ${token}`)
+                .send({
+                    "name": "Catan: Cities and Knights"
+                });
+
+            expect(response.status).to.eq(200)
+        })
+    })
+
 })
