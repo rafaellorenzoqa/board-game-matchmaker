@@ -1,5 +1,6 @@
 const express = require('express');
 const gameStore = require('../services/gameStore');
+const requireAuth = require('../middleware/auth');
 
 const router = express.Router();
 
@@ -163,7 +164,7 @@ router.get('/', (req, res) => {
  *                     Missing or invalid fields. Required: name (string), minPlayers (number),
  *                     maxPlayers (number), playTime (number), complexity (number).
  */
-router.post('/', (req, res) => {
+router.post('/', requireAuth, (req, res) => {
   const validationError = validateFullGamePayload(req.body);
   if (validationError) {
     return res.status(400).json({ error: validationError });
@@ -266,7 +267,7 @@ router.post('/', (req, res) => {
  *                   type: string
  *                   example: Game with id 1 not found.
  */
-router.put('/:id', (req, res) => {
+router.put('/:id', requireAuth, (req, res) => {
   const id = Number(req.params.id);
 
   const validationError = validateFullGamePayload(req.body);
@@ -369,7 +370,7 @@ router.put('/:id', (req, res) => {
  *                   type: string
  *                   example: Game with id 1 not found.
  */
-router.patch('/:id', (req, res) => {
+router.patch('/:id', requireAuth, (req, res) => {
   const id = Number(req.params.id);
 
   const { updates, error } = validatePartialGamePayload(req.body);
@@ -413,7 +414,7 @@ router.patch('/:id', (req, res) => {
  *                   type: string
  *                   example: Game with id 1 not found.
  */
-router.delete('/:id', (req, res) => {
+router.delete('/:id', requireAuth, (req, res) => {
   const id = Number(req.params.id);
 
   const deleted = gameStore.deleteGame(id);
