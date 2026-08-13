@@ -12,6 +12,14 @@ const GAME_FIELD_TYPES = {
   complexity: 'number',
 };
 
+function isPositiveInteger(value) {
+  return typeof value === 'number' && Number.isInteger(value) && value >= 1;
+}
+
+function isValidComplexity(value) {
+  return typeof value === 'number' && value >= 1 && value <= 5;
+}
+
 function validateFullGamePayload(body) {
   const { name, minPlayers, maxPlayers, playTime, complexity } = body;
 
@@ -25,6 +33,26 @@ function validateFullGamePayload(body) {
     return 'Missing or invalid fields. Required: name (string), minPlayers (number), maxPlayers (number), playTime (number), complexity (number).';
   }
 
+  if (!isPositiveInteger(minPlayers)) {
+    return 'Invalid field: minPlayers must be a positive integer (>= 1).';
+  }
+
+  if (!isPositiveInteger(maxPlayers)) {
+    return 'Invalid field: maxPlayers must be a positive integer (>= 1).';
+  }
+
+  if (minPlayers > maxPlayers) {
+    return 'Invalid fields: minPlayers must be less than or equal to maxPlayers.';
+  }
+
+  if (!isPositiveInteger(playTime)) {
+    return 'Invalid field: playTime must be a positive integer (>= 1).';
+  }
+
+  if (!isValidComplexity(complexity)) {
+    return 'Invalid field: complexity must be a number between 1 and 5 inclusive.';
+  }
+
   return null;
 }
 
@@ -34,14 +62,37 @@ function validatePartialGamePayload(body) {
   for (const field of Object.keys(GAME_FIELD_TYPES)) {
     if (body[field] === undefined) continue;
 
-    const isValid = field === 'name'
-      ? typeof body[field] === 'string' && body[field].trim().length > 0
-      : typeof body[field] === 'number';
-    if (!isValid) {
-      return { error: `Invalid field: ${field} must be a ${GAME_FIELD_TYPES[field]}.` };
+    const value = body[field];
+
+    if (field === 'name') {
+      if (typeof value !== 'string' || !value.trim()) {
+        return { error: `Invalid field: ${field} must be a ${GAME_FIELD_TYPES[field]}.` };
+      }
+    } else if (field === 'complexity') {
+      if (typeof value !== 'number') {
+        return { error: `Invalid field: ${field} must be a ${GAME_FIELD_TYPES[field]}.` };
+      }
+      if (!isValidComplexity(value)) {
+        return { error: 'Invalid field: complexity must be a number between 1 and 5 inclusive.' };
+      }
+    } else {
+      if (typeof value !== 'number') {
+        return { error: `Invalid field: ${field} must be a ${GAME_FIELD_TYPES[field]}.` };
+      }
+      if (!isPositiveInteger(value)) {
+        return { error: `Invalid field: ${field} must be a positive integer (>= 1).` };
+      }
     }
 
-    updates[field] = body[field];
+    updates[field] = value;
+  }
+
+  if (
+    updates.minPlayers !== undefined &&
+    updates.maxPlayers !== undefined &&
+    updates.minPlayers > updates.maxPlayers
+  ) {
+    return { error: 'Invalid fields: minPlayers must be less than or equal to maxPlayers.' };
   }
 
   return { updates };

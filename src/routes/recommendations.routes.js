@@ -107,6 +107,14 @@ router.post('/', (req, res) => {
     });
   }
 
+  const questionIds = answers.map((entry) => entry.questionId);
+  const hasDuplicateQuestionId = new Set(questionIds).size !== questionIds.length;
+  if (hasDuplicateQuestionId) {
+    return res.status(400).json({
+      error: 'Each "questionId" in "answers" must appear at most once.',
+    });
+  }
+
   const games = gameStore.listGames();
   const recommendations = getRecommendations(answers, games);
 
