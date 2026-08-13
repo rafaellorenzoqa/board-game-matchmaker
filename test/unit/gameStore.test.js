@@ -1,7 +1,6 @@
 const fs = require ('fs');
 const path = require ('path');
-const { addGame } = require('../../src/services/gameStore');
-const { writeJsonFile } = require('../../src/utils/jsonFile');
+const { addGame, resetGamesForTesting } = require('../../src/services/gameStore');
 const { expect } = require('chai');
 const initialGames = require('../fixtures/initialGames');
 
@@ -9,7 +8,7 @@ const TEST_FILE = path.join (__dirname, 'fixtures', 'games.json');
 
 describe ('gameStore.addGame', () => {
     beforeEach(() => {
-        writeJsonFile(TEST_FILE, initialGames);
+        resetGamesForTesting(initialGames, TEST_FILE);
     });
 
     it('New game ID must be based on the highest existing ID', () => {

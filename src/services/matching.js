@@ -3,6 +3,12 @@ const TIME_MATCH_SCORE = 2;
 const COMPLEXITY_MATCH_SCORE = 2;
 const COMPLEXITY_TOLERANCE = 1;
 
+const QUESTION_ID_PLAYER_COUNT = 'playerCount';
+const QUESTION_ID_TIME_AVAILABLE = 'timeAvailable';
+const QUESTION_ID_COMPLEXITY = 'complexity';
+
+const RECOGNIZED_QUESTION_IDS = [QUESTION_ID_PLAYER_COUNT, QUESTION_ID_TIME_AVAILABLE, QUESTION_ID_COMPLEXITY];
+
 function getAnswer(answers, questionId) {
   const found = answers.find((a) => a.questionId === questionId);
   return found ? found.answer : undefined;
@@ -12,7 +18,7 @@ function scoreGame(game, answers) {
   let score = 0;
   const reasons = [];
 
-  const playerCount = getAnswer(answers, 'playerCount');
+  const playerCount = getAnswer(answers, QUESTION_ID_PLAYER_COUNT);
   if (typeof playerCount === 'number') {
     if (playerCount >= game.minPlayers && playerCount <= game.maxPlayers) {
       score += PLAYER_COUNT_MATCH_SCORE;
@@ -20,7 +26,7 @@ function scoreGame(game, answers) {
     }
   }
 
-  const timeAvailable = getAnswer(answers, 'timeAvailable');
+  const timeAvailable = getAnswer(answers, QUESTION_ID_TIME_AVAILABLE);
   if (typeof timeAvailable === 'number') {
     if (game.playTime <= timeAvailable) {
       score += TIME_MATCH_SCORE;
@@ -28,7 +34,7 @@ function scoreGame(game, answers) {
     }
   }
 
-  const complexity = getAnswer(answers, 'complexity');
+  const complexity = getAnswer(answers, QUESTION_ID_COMPLEXITY);
   if (typeof complexity === 'number' && typeof game.complexity === 'number') {
     if (Math.abs(game.complexity - complexity) <= COMPLEXITY_TOLERANCE) {
       score += COMPLEXITY_MATCH_SCORE;
@@ -54,4 +60,4 @@ function getRecommendations(answers, games, { maxResults = 3 } = {}) {
   }));
 }
 
-module.exports = { getRecommendations, scoreGame };
+module.exports = { getRecommendations, scoreGame, RECOGNIZED_QUESTION_IDS };

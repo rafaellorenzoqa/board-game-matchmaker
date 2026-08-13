@@ -1,6 +1,9 @@
 games_edge_cases.md
 test/unit/fixtures/games.json
 test/api/fixtures/games.json
+data/games.counter.json
+test/unit/fixtures/games.counter.json
+test/api/fixtures/games.counter.json
 context
 
 # Logs
