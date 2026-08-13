@@ -90,6 +90,15 @@ router.post('/', (req, res) => {
     });
   }
 
+  const hasMalformedEntry = answers.some(
+    (entry) => typeof entry !== 'object' || entry === null || typeof entry.questionId !== 'string'
+  );
+  if (hasMalformedEntry) {
+    return res.status(400).json({
+      error: 'Each entry in "answers" must be an object with a string "questionId".',
+    });
+  }
+
   const games = gameStore.listGames();
   const recommendations = getRecommendations(answers, games);
 

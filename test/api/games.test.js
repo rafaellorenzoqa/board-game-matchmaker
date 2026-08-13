@@ -3,7 +3,7 @@ process.env.GAMES_FILE_PATH = require('path').join(__dirname, 'fixtures', 'games
 const request = require('supertest');
 const { expect } = require('chai');
 const app = require('../../src/app');
-const { writeJsonFile } = require('../../src/utils/jsonFile');
+const { resetGamesForTesting } = require('../../src/services/gameStore');
 const initialGames = require('../fixtures/initialGames');
 
 async function getAuthToken() {
@@ -29,7 +29,7 @@ describe('/games', () => {
     })
 
     beforeEach(() => {
-        writeJsonFile(process.env.GAMES_FILE_PATH, initialGames); // path, data.
+        resetGamesForTesting(initialGames, process.env.GAMES_FILE_PATH);
     })
 
     describe('GET /games', () => {
