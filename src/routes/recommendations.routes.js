@@ -71,7 +71,7 @@ const router = express.Router();
  *                         type: string
  *                         example: "Supports 4 players (range 3-4); Fits your available time (~90 min)"
  *       400:
- *         description: Missing or invalid "answers" array
+ *         description: Missing/invalid "answers" array, or a malformed entry within it
  *         content:
  *           application/json:
  *             schema:
@@ -79,7 +79,15 @@ const router = express.Router();
  *               properties:
  *                 error:
  *                   type: string
- *                   example: Request body must include "answers" as an array of { questionId, answer } objects.
+ *             examples:
+ *               missingOrInvalidAnswers:
+ *                 summary: '"answers" is missing or not an array'
+ *                 value:
+ *                   error: Request body must include "answers" as an array of { questionId, answer } objects.
+ *               malformedAnswerEntry:
+ *                 summary: An entry in "answers" isn't an object with a string questionId
+ *                 value:
+ *                   error: Each entry in "answers" must be an object with a string "questionId".
  */
 router.post('/', (req, res) => {
   const { answers } = req.body;
