@@ -1,11 +1,11 @@
 # Board Game Matchmaker
 
-A small Node.js/Express API that stores a board game collection and recommends games from it based on a
-questionnaire. This is my **personal portfolio project for Julio de Lima's Mentoria JL 2.0**, built to showcase
-what I'm learning about **API test automation** — it's also my first time writing test automation at all.
+A small Node.js/Express API that stores a (currently mine) board game collection and recommends games from it based on a
+questionnaire. I intend on using this to introduce new games to non-Board Gamers. This is my **personal portfolio project for Julio de Lima's Mentoria JL 2.0**, built to showcase
+what I'm learning about **API test automation**.
 
 The API itself is a secondary goal for now. The main focus of this phase is building a solid, business-rules-
-driven automated test suite around it (see [Testing](#testing) below). Once that's in a good place, the plan is
+driven automated test suite around it (see [Testing](#testing) below). Once that's in a good place and I'm confident, the plan is
 to keep building this out into a fully working board game recommendation app (persistent database, a real
 frontend, user accounts, etc.) — see [Roadmap](#roadmap).
 
@@ -14,7 +14,7 @@ frontend, user accounts, etc.) — see [Roadmap](#roadmap).
 - **Runtime:** Node.js, Express 5
 - **Auth:** JWT (`jsonwebtoken`) — a single hardcoded credential pair for now
 - **Docs:** OpenAPI/Swagger, served at `/api-docs` via `swagger-jsdoc` + `swagger-ui-express`
-- **Storage:** flat JSON files (`data/games.json`, `data/questions.json`) — no database yet
+- **Storage:** JSON files (`data/games.json`, `data/questions.json`) — no database yet
 - **Testing:** Mocha + Chai + Supertest
 
 ## API Overview
@@ -89,7 +89,7 @@ See [Known Defects](testware/test-plan-and-strategy.md#8-known-defects) in the t
 
 ## Roadmap
 
-- [x] Full business-rules-driven test coverage across all `/games`, `/auth`, `/questions`, and `/recommendations`
+- [WIP] Full business-rules-driven test coverage across all `/games`, `/auth`, `/questions`, and `/recommendations`
   endpoints (70 conditions, C01–C70)
 - [ ] Resolve the two known defects tracked above
 - [ ] Move from flat-file storage to a real database
