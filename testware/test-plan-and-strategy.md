@@ -16,14 +16,14 @@ Overall Effort: High
 
 | Code | Description | Effort |
 |---|---|---|
-| US 1 | Authentication |  |
-| US 2 | Create a New Game (POST /games) |  |
-| US 3 | List All Games (GET /games) |  |
-| US 4 | Fully Replace a Game (PUT /games/{id}) |  |
-| US 5 | Partially Update a Game (PATCH /games/{id}) |  |
-| US 6 | Delete a Game (DELETE /games/{id}) |  |
-| US 7 | List Questionnaire (GET /questions) |  |
-| US 8 | Get Game Recommendations (POST /recommendations) |  |
+| US 1 | Authentication | High |
+| US 2 | Create a New Game (POST /games) | High |
+| US 3 | List All Games (GET /games) | Low |
+| US 4 | Fully Replace a Game (PUT /games/{id}) | Medium |
+| US 5 | Partially Update a Game (PATCH /games/{id}) | Medium |
+| US 6 | Delete a Game (DELETE /games/{id}) | Medium |
+| US 7 | List Questionnaire (GET /questions) | Low |
+| US 8 | Get Game Recommendations (POST /recommendations) | High |
 
 ## 3. Test Conditions and Layers
 
