@@ -1,6 +1,7 @@
 # Test Plan and Strategy
 
-**Board Game Matchmaker API — Test Automation Portfolio Project**
+**Board Game Matchmaker API — Test Automation Portfolio Project**  
+Since this is a my Personal Project Portfolio (PPP), I'm treating the entire project as an EPIC, with some User Stories that cover the entire scope.  
 
 _Based on ISO-29119-3._
 
@@ -139,23 +140,23 @@ Overall Effort: High
 
 ## 4. Exploratory Testing Missions
 
-- Recommendations Engine
-    Explore POST /recommendations and the scoring/ranking logic in matching.js, with hand-crafted answer sets and the real 244-game collection, to discover whether scoring, ranking, result-capping, and null-complexity handling behave correctly at the edges.
+- Recommendations Engine  
+    Explore POST /recommendations and the scoring/ranking logic in matching.js, with hand-crafted answer sets and the real 244-game collection, to discover whether scoring, ranking, result-capping, and null-complexity handling behave correctly at the edges.  
   
-- Questionnaire Endpoint
-    Explore GET /questions, with data/questions.json and the matching.js source, to discover whether every questionId returned is actually recognized and scored by the matching logic.
+- Questionnaire Endpoint  
+    Explore GET /questions, with data/questions.json and the matching.js source, to discover whether every questionId returned is actually recognized and scored by the matching logic.  
+
+- Auth Session Lifecycle  
+    Explore the full JWT lifecycle across multiple protected routes, with a single login session and Postman/curl, to discover whether a token behaves consistently across a continuous sequence of actions, not just in isolated checks.  
   
-- Auth Session Lifecycle
-    Explore the full JWT lifecycle across multiple protected routes, with a single login session and Postman/curl, to discover whether a token behaves consistently across a continuous sequence of actions, not just in isolated checks.
+- Games (Full Lifecycle Scenario)  
+    Explore a single game record's full life across all /games verbs in one continuous flow, with Postman/curl, to discover whether data stays consistent and id-reuse rules hold up across a realistic multi-step story.  
   
-- Games (Full Lifecycle Scenario)
-    Explore a single game record's full life across all /games verbs in one continuous flow, with Postman/curl, to discover whether data stays consistent and id-reuse rules hold up across a realistic multi-step story.
+- Authorization Boundary Sweep  
+    Explore authentication and authorization enforcement across every protected route, with tampered/forged JWTs and alternate HTTP methods (wrong verb), to discover whether any request can reach a protected action without a genuinely valid token.  
   
-- Authorization Boundary Sweep
-    Explore authentication and authorization enforcement across every protected route, with tampered/forged JWTs and alternate HTTP methods (wrong verb), to discover whether any request can reach a protected action without a genuinely valid token.
-  
-- OpenAPI/Swagger Accuracy
-    Explore the /api-docs specification against real API responses, with the running API and Swagger UI, to discover whether documented examples, status codes, and schemas match actual behavior.
+- OpenAPI/Swagger Accuracy  
+    Explore the /api-docs specification against real API responses, with the running API and Swagger UI, to discover whether documented examples, status codes, and schemas match actual behavior.  
 
 ## 5. Non-Functional Tests
 
