@@ -89,7 +89,7 @@ See [Known Defects](testware/test-plan-and-strategy.md#8-known-defects) in the t
 
 ## Roadmap
 
-- [WIP] Full business-rules-driven test coverage across all `/games`, `/auth`, `/questions`, and `/recommendations`
+- WIP: Full business-rules-driven test coverage across all `/games`, `/auth`, `/questions`, and `/recommendations`
   endpoints (70 conditions, C01–C70)
 - [ ] Resolve the two known defects tracked above
 - [ ] Move from flat-file storage to a real database
