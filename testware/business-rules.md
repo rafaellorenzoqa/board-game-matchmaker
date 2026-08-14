@@ -1,10 +1,7 @@
 # Business Rules — Board Game Matchmaker API
 
-Source of truth for formal test case design. Each rule has a sequential ID, with its endpoint
-in parenthesis, for traceability from test cases back to this document.
-
-Confirmed against the live source (`src/routes/*.js`, `src/services/*.js`,
-`src/middleware/auth.js`) as of this session.
+These are all the Business Rules for the BGMM (Board Game Matchmaker) project. This shall be considered my source of truth.
+Test Cases were derived from these BRs and can be found in the [Kanban Board](https://github.com/users/rafaellorenzoqa/projects/1)
 
 ---
 
