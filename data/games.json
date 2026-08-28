@@ -1,21 +1,5 @@
 [
   {
-    "id": 1,
-    "name": 123,
-    "minPlayers": 3,
-    "maxPlayers": 4,
-    "playTime": 90,
-    "complexity": 2.5
-  },
-  {
-    "id": 2,
-    "name": "3 Capítulos",
-    "minPlayers": 2,
-    "maxPlayers": 6,
-    "playTime": 360,
-    "complexity": 2.91
-  },
-  {
     "id": 3,
     "name": "5-Minute Dungeon",
     "minPlayers": 2,
