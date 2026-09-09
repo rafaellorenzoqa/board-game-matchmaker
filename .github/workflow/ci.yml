@@ -1,0 +1,25 @@
+name: CI
+
+# Runs whenever a code is pushed to main or a PR targets main.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# This is the actual job. Spins up a machine and run our test suite.
+jobs: 
+  test:
+    runs-on: ubuntu-latest # Which OS GitHub will load to run our tests.
+    steps:
+      - uses: actions/checkout@v4 # Checkout is a GH action that pulls our code into the fresh created VM. @v4 guarantees an stable version of the Action.
+      - uses: actions/setup-node@v4 # Installs node on the the fresh new Ubuntu OS using a stable version @v4.
+        with:
+          node-version: '20' # in quotes to make sure it's treated as a string, not a number.
+          cache: 'npm' # Makes the Action remember dependecies, so it won't redownload every time.
+      - run: npm ci # Run shell commands vs running a GH action. 'ci' means "Clean Install". Deleteing npm_install first, then it installs whatever is in package-lock.json IF it is in sync with package.json. 
+      - run: npm test
+        env: # works like a .env, because the original .env is gitignored. This env line populates the process.env.
+          AUTH_USERNAME: rafa
+          AUTH_PASSWORD: '1234' # in quotes to make sure it's treated as a string, not a number.
+          JWT_SECRET: dev-secret-change-me
